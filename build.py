@@ -1,8 +1,8 @@
 import os
 import os.path
+import platform
 import shutil
 import sys
-import platform
 
 MODULE_FILENAME = "PIK_maya_loader.mod"
 

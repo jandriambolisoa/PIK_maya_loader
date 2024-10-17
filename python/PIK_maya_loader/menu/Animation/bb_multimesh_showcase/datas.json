@@ -1,0 +1,4 @@
+{
+    "label" : "BB_MultiMesh_Showcase",
+    "annotation" : "Creates duplicates of a rig mesh that follow deformations of the original."
+}

@@ -1,0 +1,4 @@
+{
+    "label" : "Screen Spacer",
+    "annotation" : "A tool for fixing the visual flicker created when a character is animated in stepped mode with a moving camera."
+}

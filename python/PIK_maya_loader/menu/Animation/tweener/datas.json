@@ -1,0 +1,4 @@
+{
+    "label" : "Tweener",
+    "annotation" : "Tweener is a tool similar to TweenMachine or aTools/animBot. It allows you to quickly create in-betweens or adjust existing keys by interpolating towards adjacent keyframes, and can speed-up your workflow when creating breakdowns and in-betweens."
+}

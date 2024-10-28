@@ -4,7 +4,7 @@ from maya import OpenMaya
 try:
     import tweener
 
-    plugin_filepath = tweener.__file__
+    plugin_filepath = "tweener.py"
 
     # Manually load plugin if not loaded yet
     if not cmds.pluginInfo(plugin_filepath, q=True, loaded=True):

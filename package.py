@@ -1,6 +1,6 @@
 name = "PIK_maya_loader"
 
-version = "0.1.3"
+version = "0.1.4"
 
 authors = [
     "Jeremy Andriambolisoa",

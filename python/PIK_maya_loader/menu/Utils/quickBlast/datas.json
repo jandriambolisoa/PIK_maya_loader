@@ -1,0 +1,4 @@
+{
+    "label" : "Quickblast",
+    "annotation" : "Quickblast is a tool to make playblast with one click. Uses ffmpeg and is designed for PIKTURA pipeline."
+}

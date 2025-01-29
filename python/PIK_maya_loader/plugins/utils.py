@@ -22,8 +22,8 @@ def get_available_plugins():
                 plugins[os.path.splitext(f)[0]] = os.path.join(path, f).replace(
                     "\\", "/"
                 )
-        except RuntimeError:
-            pass
+        except FileNotFoundError as error:
+            OpenMaya.MGlobal.displayWarning("# PIK_maya_loader - %s" % error)
 
     return plugins
 

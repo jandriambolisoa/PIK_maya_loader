@@ -1,10 +1,13 @@
+import os
+
 from maya import cmds
 from maya import OpenMaya
 
 try:
     import tweener
 
-    plugin_filepath = "tweener.py"
+    plugin_folderpath, _ = os.path.split(tweener.__file__)
+    plugin_filepath = os.path.join(plugin_folderpath, "tweener.py")
 
     # Manually load plugin if not loaded yet
     if not cmds.pluginInfo(plugin_filepath, q=True, loaded=True):

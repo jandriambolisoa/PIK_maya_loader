@@ -1,6 +1,6 @@
 name = "PIK_maya_loader"
 
-version = "0.1.8"
+version = "0.2.0"
 
 authors = [
     "Jeremy Andriambolisoa",
@@ -12,8 +12,8 @@ description = \
     """
 
 requires = [
-    "python-3+",
-    "maya-2026"
+    ".python-3+",
+    "maya-2026+"
 ]
 
 uuid = "piktura.PIK_maya_loader"
